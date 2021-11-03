@@ -1,0 +1,11 @@
+{
+    "root": "build/",
+    "routes": {
+      "/**": "index.html"
+    },
+    "proxies": {
+      "/api": {
+        "origin": "https://chainalysis-assignment-server.herokuapp.com/api"
+      }
+    }
+  }
